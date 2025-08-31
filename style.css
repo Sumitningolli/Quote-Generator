@@ -83,6 +83,18 @@ body {
   }
 }
 
+/* for tablets */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .quote {
+    font-size: 2rem;
+  }
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+
 /* ✅ Fullscreen / Desktop screens (901px and above) */
 @media screen and (min-width: 901px) {
   .quote {
